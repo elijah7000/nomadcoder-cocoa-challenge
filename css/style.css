@@ -1,0 +1,11 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color:#0E2C5E; 
+    width: 500px;
+}
+.intro__gif{
+   
+    width: 200px;
+}
