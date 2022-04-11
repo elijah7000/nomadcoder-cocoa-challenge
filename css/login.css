@@ -1,0 +1,31 @@
+.nav-status {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-status__column {
+  width: 33%;
+}
+.nav-status__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.nav-status__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-status__column--internet {
+  margin-right: 2px;
+}
+
+.fa-battery-full {
+  margin-left: 2px;
+}
+.fa-sms {
+  margin-left: 2px;
+}
+.battery-text {
+  margin-left: 2px;
+}
