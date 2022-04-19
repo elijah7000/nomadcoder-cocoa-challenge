@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.animation__balls{
+    display: flex;
+}
+.three-balls{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+.loading{
+    width: 10px;
+    height: 40px;
+    background-color: white;
+}
