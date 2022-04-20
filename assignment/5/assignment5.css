@@ -1,0 +1,15 @@
+@import "reset.css";
+body{
+    width: 300px;
+    background-color: white;
+    border: 3px solid mediumspringgreen;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+.title__statusbar:first-child{
+    position: relative;
+    right: 70px;
+}
