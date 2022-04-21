@@ -1,6 +1,9 @@
 @import "reset.css";
 @import "status-bar.css";
 @import "search-bar.css";
+@import "main-book.css";
+@import "side-book.css";
+@import "popular-authors.css";
 
 body{
     background-color: aqua;

@@ -1,0 +1,72 @@
+.main-book-title{ 
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.main-book{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.main-book-img{ 
+    width: 100px;
+    height: 160px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.main-book__data{
+    width: 50%;
+    margin-left: 15px;
+    border-right: 1px;
+}
+.main-book__data h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-book__data h5{
+    opacity: 0.2;
+    margin-top: 5px;
+}
+.main-book__data i{
+    font-size: 10px;
+    margin-top: 10px;
+    color: yellow;
+}
+.main-book__btn{
+    border:none;
+    cursor:pointer;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.main-book__click{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.bookmark__circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookmark__circle i{
+    font-size: 17px;
+}
+.main-book__click i{
+    color: black;
+}
+.main-book__click input{
+    border-radius: 7px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    
+}
