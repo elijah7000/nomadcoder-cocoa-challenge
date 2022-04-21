@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.status-bar{
+    width: 33%;
+    font-weight: bold;
+    font-size: 17px;
+}
+.status-bar:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar:last-child{
+    display: flex;
+    justify-content: flex-end;
+}

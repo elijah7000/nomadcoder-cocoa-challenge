@@ -1,0 +1,17 @@
+.search-bar-form{
+    display: flex;
+    justify-content: center;
+}
+.search-bar-form input{
+    font-size: 15px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 10px 25px;
+    opacity: 0.3;
+}
+.search-bar-form i{
+    position: relative;
+    right: 20px;
+    top: 12px;
+    opacity: 0.3;
+}
