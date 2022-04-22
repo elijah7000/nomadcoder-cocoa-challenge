@@ -1,0 +1,37 @@
+.play-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    right: 30px;
+}
+.play-list__song{
+    display: flex;
+    margin-bottom: 15px;
+}
+.play-list__song__img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px #dddddd;
+}
+.play-list__song__info{
+    width: 70%;
+    margin-left: 20px;
+}
+.play-list__song__info h3{
+    font-size: 13px;
+    opacity: 0.5;
+}
+.play-list__song__info h2{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.play-list__song i{
+    position: relative;
+    left: 30px;
+}
+
