@@ -1,0 +1,35 @@
+.play-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px 0px;
+}
+.play-btn__name h3{
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.play-btn__name h2{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.play-btn__click{
+    display: flex;
+}
+.play-btn__click__icon:first-child{
+    font-size: 13px;
+    margin-right: 20px;
+}
+.play-btn__click__icon:last-child{
+    font-size: 13px;
+    margin-left: 20px;
+}
+.play-btn__click__icon:nth-child(2){
+    position: relative;
+    bottom: 2px;
+}
